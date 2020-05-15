@@ -11,13 +11,37 @@
     <link
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">Weather Dashboard</nav>
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">Weather Dashboard</nav> -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Weather Dashboard</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <form class="form-inline my-2 my-lg-0">
+      <input id="city" class="form-control mr-sm-2" type="search" placeholder="Ex. Chicago, US" aria-label="Search">
+      <button id="search-current" class="btn btn-outline-success my-2 my-sm-0" type="button">Search</button>
+    </form>
+  </nav>
 
-    <input id="city" type="text" placeholder="Enter the city">
-    <button class="search-current">Search</button>
+      <div class="container">
+
+        <ul class="col-xs-6" id="city-container">Some content...</ul>
+
+      </div>
+
     <div class="content"></div>
     <br>
     <div class="forecast-content"></div>
+    <br>
+    <div class="forecast-content2"></div>
+    <br>
+    <div class="forecast-content3"></div>
+    <br>
+    <div class="forecast-content4"></div>
+    <br>
+    <div class="forecast-content5"></div>
+
+
     
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
